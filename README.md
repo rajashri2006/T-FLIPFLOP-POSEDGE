@@ -28,15 +28,37 @@ From the above characteristic table, we can directly write the next state equati
 
 **Procedure**
 
-/* write all the steps invloved */
+Inputs:
+T: Toggle input.
+clk: Clock signal.
+reset (optional): To initialize or reset the output.
+
+Output:
+Q: The current state (output).
+
+Behavior:
+On the rising edge of the clock:
+If T = 1: The output toggles (Q = ~Q).
+If T = 0: The output remains unchanged.
+If a reset is present, the output resets to 0.
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+DEVELOPED BY:RAJASHRI I , REGISTER NUMBER :24900207
+
+![DE ex9 code](https://github.com/user-attachments/assets/917e98b9-dfd2-45d6-9ed2-7de94e15118e)
+
 
 **RTL LOGIC FOR FLIPFLOPS**
 
+![DE ex9 diagram](https://github.com/user-attachments/assets/82e48a51-cd4f-4356-9a2a-9654878aa220)
+
+
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![DE ex9 wave](https://github.com/user-attachments/assets/3a7ea28e-e5cd-42ef-8d81-c965d11ba6a1)
+
+
 **RESULTS**
+The implementation  T flipflop using verilog and validating their functionality using their functional tables
+
